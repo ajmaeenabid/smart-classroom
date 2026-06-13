@@ -5,7 +5,7 @@
 
 -- Add live question pointer to quizzes table
 ALTER TABLE quizzes
-    ADD COLUMN IF NOT EXISTS live_question INT DEFAULT 0;
+    ADD COLUMN live_question INT DEFAULT 0;
 
 -- Per-question live answers (separate from regular quiz_responses)
 CREATE TABLE IF NOT EXISTS live_quiz_answers (

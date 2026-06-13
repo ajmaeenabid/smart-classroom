@@ -2,8 +2,6 @@
 -- SMART CLASSROOM SYSTEM — Database Schema v3.8
 -- =============================================
 
-CREATE DATABASE IF NOT EXISTS smart_classroom CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE smart_classroom;
 
 -- Users Table (Teacher, Student, Guardian)
 CREATE TABLE IF NOT EXISTS users (

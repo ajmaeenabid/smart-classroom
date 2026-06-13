@@ -30,6 +30,7 @@ CREATE TABLE IF NOT EXISTS classes (
     logo VARCHAR(255) DEFAULT NULL,
     max_students INT DEFAULT 40,
     description TEXT DEFAULT NULL,
+    status ENUM('active','archived') DEFAULT 'active',
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (teacher_id) REFERENCES users(id) ON DELETE CASCADE
 );

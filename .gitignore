@@ -1,0 +1,18 @@
+# Ignore uploaded user files (can be large)
+uploads/*
+!uploads/.gitkeep
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore PHP error logs
+*.log
+error_log
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore environment override (if you ever add one)
+.env
